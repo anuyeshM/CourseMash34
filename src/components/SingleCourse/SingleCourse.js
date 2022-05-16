@@ -4,7 +4,7 @@ import { singleContext } from '../../App';
 import '../../../node_modules/react-bootstrap';
 import YouTube from '../../../node_modules/react-youtube'
 
-import Button from '@material-ui/core/Button';
+
 import {Card} from 'react-bootstrap';
 import '../../../node_modules/mdb-react-ui-kit';
 import StarRatings from 'react-star-ratings';
