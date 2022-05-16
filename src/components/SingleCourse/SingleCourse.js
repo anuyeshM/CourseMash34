@@ -9,7 +9,7 @@ import {Card} from 'react-bootstrap';
 import '../../../node_modules/mdb-react-ui-kit';
 import StarRatings from 'react-star-ratings';
 
-var getYouTube = require("get-youtube-id");
+
 const onPlayerReady  = (event) => {
   // access to player in all event handlers via event.target
   event.target.pauseVideo();
