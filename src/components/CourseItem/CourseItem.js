@@ -1,7 +1,7 @@
 import React from 'react';
 //for showing star rating . it's shows some error on console but work properly
 import StarRatings from 'react-star-ratings';
-import YouTube from '../../../node_modules/react-youtube'
+
 
 
 
