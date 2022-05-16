@@ -2,7 +2,8 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router';
 import { singleContext } from '../../App';
 import '../../../node_modules/react-bootstrap';
-
+import '../../../node_modules/react-youtube';
+import YouTube from 'react-youtube';
 
 
 import {Card} from 'react-bootstrap';
@@ -43,7 +44,7 @@ const SingleCourse = () => {
             <div className="col-md-6 text-center pe-40 t-20;">
             <div class="shadow-lg p-3 mb-5 bg-white rounded">
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginBottom:"20px",marginTop:"20px",  border: "2px solid red" }}> 
-          
+          <YouTube videoId={videoId} opts={opts} onReady={onPlayerReady} />
             </div>
             
             </div>
